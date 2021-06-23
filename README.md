@@ -1,0 +1,26 @@
+# springcloud-study
+springcloud/springcloud alibaba各组件简单搭建，包括 
+###  服务注册中心
+      * eureka
+      * zookeeper
+      * consul
+      * nacos
+###  服务调用
+      * Ribbon
+      * LoadBalancer
+      * Feign
+      * OpenFeign
+###  服务降级
+      * Hystrix
+      * alibaba Sentinel
+###  服务网关
+      * zull
+      * gateway
+###  服务配置
+      * config
+      * nacos
+###  服务主线
+      * Bus
+      * nacos
+###  分布式事务解决方案
+      * Seata
