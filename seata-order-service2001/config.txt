@@ -1,0 +1,17 @@
+#事务分组——my_test_tx_group 这值会在我们客户端对应，需要注意
+service.vgroupMapping.guoshao_tx_group=default
+service.default.grouplist=127.0.0.1:8091
+store.mode=db
+store.db.datasource=druid
+store.db.dbType=mysql
+store.db.driverClassName=com.mysql.jdbc.Driver
+store.db.url=jdbc:mysql://127.0.0.1:3306/seata
+store.db.user=root
+store.db.password=0506
+store.db.minConn=5
+store.db.maxConn=30
+store.db.globalTable=global_table
+store.db.branchTable=branch_table
+store.db.queryLimit=100
+store.db.lockTable=lock_table
+store.db.maxWait=5000
